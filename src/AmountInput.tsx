@@ -5,7 +5,7 @@ export default function AmountInput(props:InputProps) {
     <div className="flex items-center bg-blue-950 border border-white/10 rounded-lg">
       <Input
         placeholder="Amount"
-        className="border-0 w-36 pl-4 bg-transparent text-2xl"
+        className="border-0 w-32 pl-4 bg-transparent text-2xl"
         value={props.value}
         onChange={props.onChange} />
       <span className="text-white/50 px-4">USD</span>
